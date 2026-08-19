@@ -1,3 +1,16 @@
+> **Fork.** This is [atomicgo/keyboard](https://github.com/atomicgo/keyboard)
+> with one file added: `tty_js.go`, the `js && wasm` case. Upstream has a
+> `tty_unix.go` and a `tty_windows.go` and no branch for a browser, so the
+> package does not compile for `js/wasm` at all — which also stops `pterm`
+> compiling, even for the parts that only print.
+>
+> All four functions are empty: a page has no tty to put into raw mode, and
+> keystrokes arrive as DOM events already decoded.
+>
+> The module path is `github.com/0magnet/keyboard` so it can be used as a
+> `replace` target; `pterm` imports the vanity path from inside its own
+> source, so nothing but a replacement can redirect it.
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/atomicgo/atomicgo/main/assets/header.png" alt="AtomicGo">
 </p>

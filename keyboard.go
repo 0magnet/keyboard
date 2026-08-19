@@ -8,7 +8,7 @@ import (
 
 	"github.com/containerd/console"
 
-	"atomicgo.dev/keyboard/keys"
+	"github.com/0magnet/keyboard/keys"
 )
 
 var con console.Console

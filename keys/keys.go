@@ -1,7 +1,7 @@
 // Package keys provides keyboard key types and constants.
 package keys
 
-import "atomicgo.dev/keyboard/internal"
+import "github.com/0magnet/keyboard/internal"
 
 // Key contains information about a keypress.
 type Key struct {

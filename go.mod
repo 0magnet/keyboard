@@ -1,4 +1,4 @@
-module atomicgo.dev/keyboard
+module github.com/0magnet/keyboard
 
 go 1.25.0
 

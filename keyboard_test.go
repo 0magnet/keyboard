@@ -3,8 +3,8 @@ package keyboard_test
 import (
 	"testing"
 
-	"atomicgo.dev/keyboard"
-	"atomicgo.dev/keyboard/keys"
+	"github.com/0magnet/keyboard"
+	"github.com/0magnet/keyboard/keys"
 	"github.com/MarvinJWendt/testza"
 )
 

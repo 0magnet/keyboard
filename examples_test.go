@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"atomicgo.dev/keyboard/keys"
+	"github.com/0magnet/keyboard/keys"
 )
 
 func ExampleListen_simple() {
